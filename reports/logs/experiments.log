@@ -1,0 +1,274 @@
+Pokretanje: 2026-10-03 18:22
+
+
+======================================================================
+logistic_regression  |  imputacija: mean
+======================================================================
+Najbolji roc_auc: 0.8440
+Trajanje: 3.6s
+Hiperparametri:
+   C                        1
+   class_weight             balanced
+
+======================================================================
+logistic_regression  |  imputacija: median
+======================================================================
+Najbolji roc_auc: 0.8439
+Trajanje: 1.3s
+Hiperparametri:
+   C                        1
+   class_weight             balanced
+
+======================================================================
+logistic_regression  |  imputacija: knn
+======================================================================
+Najbolji roc_auc: 0.8435
+Trajanje: 2.0s
+Hiperparametri:
+   C                        0.1
+   class_weight             balanced
+
+======================================================================
+logistic_regression  |  imputacija: iterative
+======================================================================
+Najbolji roc_auc: 0.8449
+Trajanje: 4.8s
+Hiperparametri:
+   C                        0.1
+   class_weight             balanced
+
+======================================================================
+knn  |  imputacija: mean
+======================================================================
+Najbolji roc_auc: 0.8382
+Trajanje: 4.3s
+Hiperparametri:
+   n_neighbors              21
+   p                        2
+   weights                  distance
+
+======================================================================
+knn  |  imputacija: median
+======================================================================
+Najbolji roc_auc: 0.8381
+Trajanje: 3.8s
+Hiperparametri:
+   n_neighbors              21
+   p                        2
+   weights                  distance
+
+======================================================================
+knn  |  imputacija: knn
+======================================================================
+Najbolji roc_auc: 0.8381
+Trajanje: 5.8s
+Hiperparametri:
+   n_neighbors              31
+   p                        2
+   weights                  distance
+
+======================================================================
+knn  |  imputacija: iterative
+======================================================================
+Najbolji roc_auc: 0.8384
+Trajanje: 13.1s
+Hiperparametri:
+   n_neighbors              21
+   p                        2
+   weights                  distance
+
+======================================================================
+svm  |  imputacija: mean
+======================================================================
+Najbolji roc_auc: 0.8480
+Trajanje: 77.9s
+Hiperparametri:
+   C                        100
+   class_weight             None
+   gamma                    0.001
+   kernel                   rbf
+
+======================================================================
+svm  |  imputacija: median
+======================================================================
+Najbolji roc_auc: 0.8474
+Trajanje: 77.5s
+Hiperparametri:
+   C                        1
+   class_weight             balanced
+   gamma                    0.01
+   kernel                   rbf
+
+======================================================================
+svm  |  imputacija: knn
+======================================================================
+Najbolji roc_auc: 0.8464
+Trajanje: 80.3s
+Hiperparametri:
+   C                        1
+   class_weight             balanced
+   gamma                    0.01
+   kernel                   rbf
+
+======================================================================
+svm  |  imputacija: iterative
+======================================================================
+Najbolji roc_auc: 0.8484
+Trajanje: 200.2s
+Hiperparametri:
+   C                        10
+   class_weight             None
+   gamma                    0.01
+   kernel                   rbf
+
+======================================================================
+decision_tree  |  imputacija: mean
+======================================================================
+Najbolji roc_auc: 0.8018
+Trajanje: 28.7s
+Hiperparametri:
+   class_weight             balanced
+   criterion                gini
+   max_depth                3
+   min_samples_leaf         1
+   min_samples_split        20
+
+======================================================================
+decision_tree  |  imputacija: median
+======================================================================
+Najbolji roc_auc: 0.8034
+Trajanje: 28.4s
+Hiperparametri:
+   class_weight             balanced
+   criterion                gini
+   max_depth                3
+   min_samples_leaf         1
+   min_samples_split        20
+
+======================================================================
+decision_tree  |  imputacija: knn
+======================================================================
+Najbolji roc_auc: 0.8093
+Trajanje: 31.9s
+Hiperparametri:
+   class_weight             balanced
+   criterion                gini
+   max_depth                4
+   min_samples_leaf         10
+   min_samples_split        2
+
+======================================================================
+decision_tree  |  imputacija: iterative
+======================================================================
+Najbolji roc_auc: 0.7956
+Trajanje: 47.8s
+Hiperparametri:
+   class_weight             None
+   criterion                entropy
+   max_depth                4
+   min_samples_leaf         10
+   min_samples_split        10
+
+======================================================================
+random_forest  |  imputacija: mean
+======================================================================
+Najbolji roc_auc: 0.8403
+Trajanje: 226.9s
+Hiperparametri:
+   class_weight             None
+   max_depth                5
+   max_features             log2
+   min_samples_leaf         5
+   n_estimators             300
+
+======================================================================
+random_forest  |  imputacija: median
+======================================================================
+Najbolji roc_auc: 0.8406
+Trajanje: 2450.2s
+Hiperparametri:
+   class_weight             None
+   max_depth                5
+   max_features             sqrt
+   min_samples_leaf         5
+   n_estimators             300
+
+======================================================================
+random_forest  |  imputacija: knn
+======================================================================
+Najbolji roc_auc: 0.8422
+Trajanje: 237.7s
+Hiperparametri:
+   class_weight             None
+   max_depth                5
+   max_features             sqrt
+   min_samples_leaf         1
+   n_estimators             300
+
+======================================================================
+random_forest  |  imputacija: iterative
+======================================================================
+Najbolji roc_auc: 0.8397
+Trajanje: 267.9s
+Hiperparametri:
+   class_weight             None
+   max_depth                5
+   max_features             sqrt
+   min_samples_leaf         1
+   n_estimators             300
+
+======================================================================
+xgboost  |  imputacija: mean
+======================================================================
+Najbolji roc_auc: 0.8440
+Trajanje: 94.8s
+Hiperparametri:
+   colsample_bytree         0.8
+   learning_rate            0.01
+   max_depth                2
+   n_estimators             500
+   reg_lambda               0.1
+   scale_pos_weight         1.87
+   subsample                0.6
+
+======================================================================
+xgboost  |  imputacija: median
+======================================================================
+Najbolji roc_auc: 0.8445
+Trajanje: 825.5s
+Hiperparametri:
+   colsample_bytree         0.8
+   learning_rate            0.01
+   max_depth                2
+   n_estimators             500
+   reg_lambda               0.1
+   scale_pos_weight         1.87
+   subsample                0.6
+
+======================================================================
+xgboost  |  imputacija: knn
+======================================================================
+Najbolji roc_auc: 0.8448
+Trajanje: 192.5s
+Hiperparametri:
+   colsample_bytree         0.8
+   learning_rate            0.01
+   max_depth                2
+   n_estimators             500
+   reg_lambda               0.1
+   scale_pos_weight         1.87
+   subsample                0.6
+
+======================================================================
+xgboost  |  imputacija: iterative
+======================================================================
+Najbolji roc_auc: 0.8456
+Trajanje: 395.0s
+Hiperparametri:
+   colsample_bytree         0.8
+   learning_rate            0.01
+   max_depth                2
+   n_estimators             500
+   reg_lambda               0.1
+   scale_pos_weight         1.87
+   subsample                0.6

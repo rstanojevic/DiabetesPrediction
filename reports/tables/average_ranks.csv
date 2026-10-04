@@ -1,0 +1,7 @@
+model,0
+svm,2.81
+logistic_regression,3.03
+xgboost,3.11
+random_forest,3.42
+knn,3.54
+decision_tree,5.09

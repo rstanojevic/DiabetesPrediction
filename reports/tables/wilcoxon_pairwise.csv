@@ -1,0 +1,16 @@
+model_a,model_b,mean_a,mean_b,razlika,p,p_holm,znacajno
+decision_tree,xgboost,0.809294,0.845576,-0.036282,0.0,1e-06,True
+decision_tree,random_forest,0.809294,0.842197,-0.032903,0.0,3e-06,True
+decision_tree,svm,0.809294,0.84843,-0.039136,0.0,5e-06,True
+decision_tree,logistic_regression,0.809294,0.844944,-0.03565,0.0,5e-06,True
+decision_tree,knn,0.809294,0.838444,-0.02915,5.9e-05,0.000653,True
+knn,svm,0.838444,0.84843,-0.009985,0.008763,0.087631,False
+random_forest,svm,0.842197,0.84843,-0.006233,0.047187,0.424681,False
+logistic_regression,svm,0.844944,0.84843,-0.003486,0.060416,0.483324,False
+knn,logistic_regression,0.838444,0.844944,-0.006499,0.113734,0.796139,False
+knn,random_forest,0.838444,0.842197,-0.003753,0.475008,1.0,False
+logistic_regression,random_forest,0.844944,0.842197,0.002747,0.276026,1.0,False
+knn,xgboost,0.838444,0.845576,-0.007131,0.185994,1.0,False
+logistic_regression,xgboost,0.844944,0.845576,-0.000632,0.888677,1.0,False
+random_forest,xgboost,0.842197,0.845576,-0.003379,0.21476,1.0,False
+svm,xgboost,0.84843,0.845576,0.002854,0.337048,1.0,False
