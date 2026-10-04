@@ -24,7 +24,7 @@ Svaki model je kombinovan sa četiri imputacione strategije
 (mean, median, KNN, MICE), što daje 24 eksperimenta.
 
 ## Struktura projekta
-
+```text
 diabetes-prediction/
 ├── data/
 │   ├── raw/diabetes.csv
@@ -50,7 +50,7 @@ diabetes-prediction/
 ├── models/                     # joblib .pkl
 ├── requirements.txt
 └── README.md
-
+```
 ## Pokretanje skripti
 
 Skripte se pokreću iz korena projekta, ovim redom:
